@@ -7,6 +7,7 @@ public class HelloOOM {
 		String hello = "hello world";
 		for(int i=0; i<23; i++) {
 			hello += hello;
+			System.out.println(hello);
 		}
 	}
 
